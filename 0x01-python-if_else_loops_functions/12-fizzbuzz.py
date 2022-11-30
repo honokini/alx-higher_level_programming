@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 # Author - Tolulope Fankule
-"""Print the numbers from 0 to 100 separated by space.
-  For multiples of three, print Fizz instead  of the number
+"""Print the numbers from 1 t0 100 separated by a space.
+  For multiples of three, print Fizz instead of the number
   For multiples of five, print Buzz instead of the number.
-  For multiples of three and five, print FizzBuzz instead the number.
+  For multiples of three and five, print FrizzBuzz of the number.
   """
 
 def fizzbuzz():
