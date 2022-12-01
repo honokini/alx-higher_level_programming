@@ -11,7 +11,7 @@ if __name__ == "__main__":
 
     ops = {"+": add, "-": sub, "*": mul, "/": div}
     if sys.argv[2] not in list(ops.keys()):
-        print("Unknown operator. Available operators: +, -, *, and /")
+        print("Unknown operator. Available operators: +, -, * and /")
         sys.exit(1)
 
     a = int(sys.argv[1])
