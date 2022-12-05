@@ -23,7 +23,7 @@ void reverse_listint(listint_t **head)
 }
 
 /**
- * is_palindrome -checks if a linked list is palindrome
+ * is_palindrome - checks if a linked list is palindrome
  * @head: double pointer to the linked list
  *
  * Return: 1 if it is, 0 if not
