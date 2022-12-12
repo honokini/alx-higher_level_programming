@@ -1,13 +1,12 @@
 #include <stdio.h>
-#include <python.h>
 
 /**
  * print_python_bytes - Print bytes information
  *
- * @p Python Object
+ * @p: Python Object
  * Return: no return
  */
-void print_pyton_bytes(PyObject *p)
+void print_python_bytes(PyObject *p)
 {
 	char *string;
 	long int size, i, limit;
@@ -47,14 +46,14 @@ void print_pyton_bytes(PyObject *p)
  * @p: Python Object
  * Return: no return
  */
-void print_python_list(PyOject *p)
+void print_python_list(PyObject *p)
 {
 	long int size, i;
-	PyListOject *list;
+	PyListObject *list;
 	PyObject *obj;
 
 	size = ((PyVarObject *)(p))->ob_size;
-	list = (PyListOject *)p;
+	list = (PyListObject *)p;
 
 	printf("[*] Python list info\n");
 	printf("[*] Size of the Python List = %ld\n", size);
@@ -68,4 +67,3 @@ void print_python_list(PyOject *p)
 			print_python_bytes(obj);
 	}
 }
-
