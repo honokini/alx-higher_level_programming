@@ -10,3 +10,4 @@ def safe_function(fct, *args):
         return None
     else:
         return res
+    return res
