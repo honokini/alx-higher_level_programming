@@ -6,6 +6,6 @@ def safe_print_division(a, b):
         div = a / b
     except (TypeError, ZeroDivisionError):
         div = None
-    Finally:
+    finally:
         print("Inside result: {}".format(div))
     retunr (div)
