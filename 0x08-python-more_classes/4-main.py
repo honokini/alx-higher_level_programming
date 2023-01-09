@@ -24,35 +24,3 @@ print("--")
 
 print(new_rectangle is my_rectangle)
 print(type(new_rectangle) is type(my_rectangle))
-
-guillaume@ubuntu:~/0x08$ ./4-main.py
-##
-##
-##
-##
---
-##
-##
-##
-##
---
-Rectangle(2, 4)
---
-0x7f09ebf7cc88
---
-##
-##
-##
-##
---
-##
-##
-##
-##
---
-Rectangle(2, 4)
---
-0x7f09ebf7ccc0
---
-False
-True
