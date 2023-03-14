@@ -1,4 +1,3 @@
-ble file 17 lines (15 sloc) 266 Bytes
 #!/usr/bin/node
 const x = process.argv[2];
 
